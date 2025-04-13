@@ -5,19 +5,69 @@ import React from "react";
 const Mentors = () => {
   const Mentors = [
     {
-      imageSrc: "/judges/Kartik.jpeg",
-      name: "Kartik Mathur",
-      link: "https://www.linkedin.com/in/kartik-mathur/",
+      imageSrc: "/mentors/radhika.jpeg",
+      name: "Radhika Bansal",
+      link: "https://www.linkedin.com/in/radhika403/",
     },
     {
-      imageSrc: "/judges/vani.jpeg",
-      name: "Vani Chitkara",
-      link: "https://www.linkedin.com/in/vani-chitkara/",
+      imageSrc: "/mentors/sanidhya.jpeg",
+      name: "Sanidhya Goel",
+      link: "https://www.linkedin.com/in/sanidhyagoel18/",
     },
     {
-      imageSrc: "/judges/aarnav.jpg",
-      name: "Aarnav Jindal",
-      link: "https://www.linkedin.com/in/aarnavjindal/",
+      imageSrc: "/mentors/tejaswi.jpg",
+      name: "Tejaswi Tyagi",
+      link: "https://www.linkedin.com/in/tejaswi-tyagi/",
+    },
+    {
+      imageSrc: "/mentors/akanksha.jpg",
+      name: "Akanksha Jha",
+      link: "https://www.linkedin.com/in/akanksha-jha-8609a422a/",
+    },
+    {
+      imageSrc: "/mentors/vikranth.jpg",
+      name: "Vikranth Udandarao",
+      link: "https://www.linkedin.com/in/vikranth-udandarao/",
+    },
+    {
+      imageSrc: "/mentors/rudra.jpg",
+      name: "Rudra Pratap Dash",
+      link: "https://www.linkedin.com/in/rudra-pratap-dash-b2ab16267/",
+    },
+    {
+      imageSrc: "/mentors/aishvi.png",
+      name: "Aishvi Guleria",
+      link: "https://www.linkedin.com/in/aishvi-guleria-09a04222b/",
+    },
+    {
+      imageSrc: "/mentors/pratham.jpeg",
+      name: "Pratham Batra",
+      link: "https://www.linkedin.com/in/pratham1908/",
+    },
+    {
+      imageSrc: "/mentors/teeksha.jpeg",
+      name: "Teeksha Harish",
+      link: "https://www.linkedin.com/in/teeksha-harish-5895a0234/",
+    },
+    {
+      imageSrc: "/mentors/dhruv.jpg",
+      name: "Dhruv Bakshi",
+      link: "https://www.linkedin.com/in/dhruvbakshiwork/",
+    },
+    {
+      imageSrc: "/mentors/suhani.jpeg",
+      name: "Suhani Nagpal",
+      link: "https://www.linkedin.com/in/suhani-nagpal072/",
+    },
+    {
+      imageSrc: "/mentors/tanmay.jpg",
+      name: "Tanmay Arora",
+      link: "https://www.linkedin.com/in/tanmaycode1/",
+    },
+    {
+      imageSrc: "/mentors/aditya.png",
+      name: "Aditya Girdhar",
+      link: "https://www.linkedin.com/in/adityagirdhar/",
     },
   ];
 
@@ -43,7 +93,9 @@ const Mentors = () => {
             />
             <div className="flex items-center gap-2">
               <span>{items.name}</span>
-              <a href={items.link} className="bg-blue-500/10 p-2 rounded-md"><Linkedin className="text-blue-500" size={20} /></a>
+              <a target="_blank" href={items.link} className="bg-blue-500/10 p-2 rounded-md">
+                <Linkedin className="text-blue-500" size={20} />
+              </a>
             </div>
           </div>
         ))}
