@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface MenuItem {
     title: string;
     links: {
@@ -84,7 +86,9 @@ interface MenuItem {
               <div className="col-span-2 mb-8 lg:mb-0">
                 <div className="flex items-center gap-2 lg:justify-start">
                   <a href="https://shadcnblocks.com">
-                    <img
+                    <Image
+                    width={250}
+                    height={60}
                       src={logo.src}
                       alt={logo.alt}
                       title={logo.title}
