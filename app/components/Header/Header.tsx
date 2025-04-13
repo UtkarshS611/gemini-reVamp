@@ -47,7 +47,7 @@ const Header = () => {
   ];
 
   return (
-    <section className="py-4 flex justify-center">
+    <section className="py-4 xl:px-14 lg:px-10 md:px-8 px-4 flex justify-center">
       <div className="w-full">
         <nav className="flex items-center justify-between">
           <a
