@@ -72,32 +72,27 @@ interface MenuItem {
         ],
       },
     ],
-    copyright = "© 2024 Shadcnblocks.com. All rights reserved.",
+    copyright = "©2025 Devcation. All rights reserved.",
     bottomLinks = [
       { text: "Terms and Conditions", url: "#" },
       { text: "Privacy Policy", url: "#" },
     ],
   }: FooterProps) => {
     return (
-      <section className="py-32 xl:px-14 lg:px-10 md:px-8 px-4 flex justify-center">
+      <section className="py-32 border-t xl:px-14 lg:px-10 md:px-8 px-4 flex justify-center">
         <div className="w-full">
           <footer>
             <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
-              <div className="col-span-2 mb-8 lg:mb-0">
-                <div className="flex items-center gap-2 lg:justify-start">
-                  <a href="https://shadcnblocks.com">
+              <div className="col-span-2 ">
+                  <a href="#">
                     <Image
-                    width={250}
-                    height={60}
-                      src={logo.src}
+                    width={350}
+                    height={100}
+                      src={"/logo.png"}
                       alt={logo.alt}
                       title={logo.title}
-                      className="h-10"
                     />
                   </a>
-                  <p className="text-xl font-semibold">{logo.title}</p>
-                </div>
-                <p className="mt-4 font-bold">{tagline}</p>
               </div>
               {menuItems.map((section, sectionIdx) => (
                 <div key={sectionIdx}>
