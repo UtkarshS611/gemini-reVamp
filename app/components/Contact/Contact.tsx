@@ -11,7 +11,7 @@ export default function ContactForm() {
           Let&apos;s Have a Chat
         </h1>
       </div>
-      <form className="w-full max-w-4xl mx-auto flex flex-col gap-4 pt-16 pb-2 xl:px-14 lg:px-10 md:px-8 px-4">
+      <form className="w-full max-w-5xl mx-auto flex flex-col gap-4 pt-16 pb-2 xl:px-14 lg:px-10 md:px-8 px-4">
         <div className="flex flex-col md:flex-row gap-6">
           <div className="flex-1 space-y-3">
             <Label htmlFor="firstName">First name</Label>

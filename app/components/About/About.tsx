@@ -5,7 +5,7 @@ const About = () => {
     <section className="py-32 flex justify-center xl:px-14 lg:px-10 md:px-8 px-4">
       <div className="container flex flex-col gap-28">
         <div className="flex flex-col gap-7">
-          <h1 className="text-4xl font-semibold lg:text-7xl">
+          <h1 className="text-4xl font-semibold lg:text-7xl text-center">
             About GDG IGDTUW
           </h1>
         </div>
@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex flex-col gap-7">
-          <h1 className="text-4xl font-semibold lg:text-7xl">
+          <h1 className="text-4xl font-semibold lg:text-7xl text-center">
             About DEVCATION &apos;25
           </h1>
         </div>

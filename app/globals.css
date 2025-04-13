@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 @custom-variant dark (&:is(.dark *));
 
@@ -129,4 +130,9 @@
 
 .hero-text{
   text-shadow: 1.5px -1.5px 2px #9d4edd;
+}
+
+.font-playfair {
+  font-family: 'Playfair', sans-serif;
+  font-style: italic;
 }

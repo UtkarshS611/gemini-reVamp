@@ -51,7 +51,7 @@ const Header = () => {
       <div className="w-full">
         <nav className="flex items-center justify-between">
           <a
-            href="https://www.shadcnblocks.com"
+            href="#"
             className="flex items-center gap-2"
           >
             <Image
@@ -151,7 +151,7 @@ const Header = () => {
               <SheetHeader>
                 <SheetTitle>
                   <a
-                    href="https://www.shadcnblocks.com"
+                    href="#"
                     className="flex items-center gap-2"
                   >
                     <Image
