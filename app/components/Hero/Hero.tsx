@@ -1,10 +1,20 @@
 import React from "react";
 import { AnimatedGradientText } from "@/components/magicui/animated-gradient-text";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="min-h-[80vh] flex flex-col py-32 gap-3 items-center justify-center bg-[url(/backgrounds/bg-1.svg)]">
+    <section className="min-h-[80vh] relative flex flex-col py-32 gap-3 items-center justify-center">
+      <div className="z-[-1] absolute inset-0">
+        <Image
+        width={1920}
+        height={1080}
+          src="/backgrounds/bg-1.svg"
+          alt="Background"
+          className="h-full w-full object-cover"
+        />
+      </div>
       <div className="group relative mx-auto flex items-center justify-center rounded-full px-4 py-1.5 shadow-[inset_0_-8px_10px_#8fdfff1f] transition-shadow duration-500 ease-out hover:shadow-[inset_0_-5px_10px_#8fdfff3f] ">
         <span
           className={cn(
