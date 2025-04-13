@@ -26,12 +26,11 @@ interface MenuItem {
   
   const Footer = ({
     logo = {
-      src: "https://www.shadcnblocks.com/images/block/block-1.svg",
+      src: "#",
       alt: "blocks for shadcn/ui",
       title: "Shadcnblocks.com",
-      url: "https://www.shadcnblocks.com",
+      url: "#",
     },
-    tagline = "Components made easy.",
     menuItems = [
       {
         title: "Product",
