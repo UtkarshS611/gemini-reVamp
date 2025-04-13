@@ -199,7 +199,7 @@ const Header = () => {
                     About
                   </a>
                   <a href="#" className="font-medium">
-                    Devcathon'25
+                    Devcathon&apos;25
                   </a>
                   <a href="#" className="font-medium">
                     Timeline
